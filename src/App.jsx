@@ -55,7 +55,7 @@ export const App = () => {
           登録できるtodo5個までだよ〜。消化しろ〜。
         </p>
       )}
-      <InCompleteTodos
+      <IncompleteTodos
         todos={incompleteTodos}
         onClickComplete={onClickComplete}
         onClickDelete={onClickDelete}
